@@ -6,7 +6,6 @@ export default function Product(props) {
 	return (
 		<div key={product._id} className="card">
 			<a href={`/product/${product._id}`}>
-				{/* image size: 680px by 830px */}
 				<img className="medium" src={product.image} alt={product.name} />
 			</a>
 			<div className="card-body">
